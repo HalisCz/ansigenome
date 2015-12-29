@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 import sys
 
@@ -7,7 +7,7 @@ try:
 except ImportError:
     print "Ansigenome needs setuptools in order to build. " + \
           "Install it using your package manager " + \
-          "(usually python-setuptools) or via pip (pip install setuptools)."
+          "(usually python-setuptools) or via pip (pip2 install setuptools)."
     sys.exit(1)
 
 setup(name="ansigenome",

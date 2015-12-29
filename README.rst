@@ -166,13 +166,13 @@ If you have Ansible installed then you already have all of the dependencies you 
 
     # Pick an installation method that agrees with you.
 
-    pip install ansigenome
+    pip2 install ansigenome
     easy_install ansigenome
 
     # If you want to live on the edge...
 
     git clone https://github.com/nickjj/ansigenome
-    cd ansigenome ; sudo python setup.py develop
+    cd ansigenome ; sudo python2 setup.py develop
 
 
 Quick start
